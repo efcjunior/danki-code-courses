@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.bg {
+    width: 500px;
+    height: 500px;
+    /*backgrounds*/
+    margin-top: 0 auto;
+    background-color: red;
+    background-image: url('./');
+    background-size: 100% auto; /*cover*/
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-repeat: repeat-x repeat-y;
+}

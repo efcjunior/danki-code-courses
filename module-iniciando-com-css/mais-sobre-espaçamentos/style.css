@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+    box-sizing: border-box;
+}
+
+.artigo {
+    margin-bottom: 40px;
+}

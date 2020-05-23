@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Tahoma;
+}
+
+
+form {
+    text-align: center;
+    background-color: #cccccc;
+    padding: 30px 0px;
+}
+
+/*
+input[type=file] {
+    display: none;
+}
+
+label {
+    display: block;
+    margin: 40px auto;
+    font-size: 17px;
+    width: 220px;
+    height: 40px;
+    background-color: #cccccc;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+form select {
+    width: 220px;
+    height: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border:0;
+    padding-left: 10px;
+    background-image: url('sprite.png');
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: 96% 8px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+*/
+
+input[type=checkbox] {
+    display: none;
+}
+
+label {
+    margin: 0 60px;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+input[type=checkbox]:checked + label {
+    background-color: red;
+    width: 50px;
+}

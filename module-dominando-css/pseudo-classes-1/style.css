@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.test, .test1, .test2 {
+    width: 300px;
+    height: 300px;
+    margin-top:30px;
+    background-color: #cccccc;
+    display:inline-block;
+}
+
+.test1 {
+    background-color: rgb(98,98,95);
+}
+
+
+.test2 {
+    background-color: rgb(98,98,50);
+}
+/*pseudo-classe
+
+.test:hover {
+    background-color:blue;
+    height:900px;
+}
+
+.test:hover, .test1, .test2 {
+    vertical-align: top;
+}
+
+
+.test:active {
+    background-color:black;
+
+}
+
+.test3:focus {
+    background-color: #cccccc;
+}
+
+*/
