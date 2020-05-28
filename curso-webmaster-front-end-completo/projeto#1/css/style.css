@@ -14,13 +14,19 @@ html, body {
     src: url('../fonts/OpenSans-Light.ttf');
 }
 
+.clear {
+    clear: both;
+}
+
 .center {
     width: 1200px;
     /*max-width: 1280px;*/
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header {
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -31,6 +37,7 @@ html, body {
 }
 
 .container-banner {
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -105,7 +112,6 @@ html, body {
 
 .form input[type=submit]:hover {
     background-color: #323665;
-<<<<<<< HEAD
 }
 
 .container-list {
@@ -161,7 +167,7 @@ html, body {
     width: 619px;
     height: 270px;
     background-color: rgba(33, 35, 67, 0.7);
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .container-list ul {
@@ -174,6 +180,7 @@ html, body {
 }
 
 .container-content {
+    min-width: 1200px;
     padding: 40px 0;
     background-color:#DDDDDD;
     text-align: center;
@@ -199,5 +206,47 @@ html, body {
     height: 40px;
     background-image: url('../images/arrow.png');
     background-size: 100% 100%;
->>>>>>> ee4de52fc0b3a06d525848a122da25f1801c2796
+}
+
+.section-1 {
+    min-width: 1200px;
+    padding: 90px 0;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single  {
+    float:left;
+    width: 33.3%;
+    padding: 30px;
+}
+
+.text-container-single p {
+    display: inline-block;
+    padding: 30px 25px;
+    text-align: justify;
+}
+
+.container-single img {
+    width: 70px;
+}
+
+.footer {
+    border-top: 2px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888888;
+}
+
+.footer p {
+    margin-top: 8px;
 }
